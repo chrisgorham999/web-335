@@ -1,0 +1,30 @@
+{
+    "userName": "cgorham1",
+    "dependents": [
+        {
+            "dependentName": "type1"
+        },
+        {
+            "dependentName": "type2"
+        }
+    ]
+}
+
+{
+    "userName": "cgorham1",
+    "roles": [
+        {
+            "roleName": "admin"
+        },
+        {
+            "roleName": "qa"
+        }
+    ]
+}
+
+
+{
+        "userName": "cgorham1",
+        "birthdate": "January 28"
+}
+
