@@ -7,4 +7,5 @@
 # Sources Used:  N/A
 #=====================================
 
+# printing the text required for the assignment
 print ("Your are now in Gorham's world!")
