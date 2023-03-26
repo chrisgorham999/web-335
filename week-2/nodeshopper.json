@@ -1,0 +1,52 @@
+[
+    {
+        "_id": "193242",
+        "firstName": "Chris",
+        "lastName": "Gorham",
+        "dateOfBirth": "1/24/1982",
+        "username": "cgorham",
+        "invoices": [
+            {
+                "_id": "2023-001",
+                "createDate": "3/20/2023",
+                "shipDate": "3/22/2023",
+                "subtotal": "$10.00",
+                "lineitems": [
+                    {
+                        "_id": "0001",
+                        "productName": "Apple",
+                        "price": "$1.00",
+                        "qty": "5"
+                    },
+                    {
+                        "_id": "0002",
+                        "productName": "Banana",
+                        "price": "$1.00",
+                        "qty": "5"
+                    }
+                ]
+            },
+
+            {
+                "_id": "2023-002",
+                "createDate": "3/18/2023",
+                "shipDate": "3/19/2023",
+                "subtotal": "$200.00",
+                "lineitems": [
+                    {
+                        "_id": "0001",
+                        "productName": "Television",
+                        "price": "$150.00",
+                        "qty": "1"
+                    },
+                    {
+                        "_id": "0002",
+                        "productName": "Radio",
+                        "price": "$50.00",
+                        "qty": "1"
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,54 @@
+[
+    {
+        "studentId": "448",
+        "firstName": "Chris",
+        "lastName": "Gorham",
+        "enrollments": [
+            {
+                "term": "3",
+                "gpa": "3.8",
+                "startDate": "3/8/2023",
+                "endDate": "5/11/2023",
+                "courses": [
+                    {
+                        "coursed": "7788",
+                        "description": "Beginner JavaScript",
+                        "instructor": "Professor Herlihy",
+                        "score": "94",
+                        "letterGrade": "A"
+                    },
+                    {
+                        "coursed": "7789",
+                        "description": "Advanced JavaScript",
+                        "instructor": "Professor Johnson",
+                        "score": "92",
+                        "letterGrade": "A-"
+                    }
+                ]
+            },
+
+            {
+                "term": "4",
+                "gpa": "4.0",
+                "startDate": "6/4/2023",
+                "endDate": "8/11/2023",
+                "courses": [
+                    {
+                        "coursed": "8881",
+                        "description": "Beginner Python",
+                        "instructor": "Professor Herlihy",
+                        "score": "94",
+                        "letterGrade": "A"
+                    },
+                    {
+                        "coursed": "8882",
+                        "description": "Advanced Python",
+                        "instructor": "Professor Johnson",
+                        "score": "98",
+                        "letterGrade": "A"
+                    }
+                ]
+            }
+        ]
+    }
+]
