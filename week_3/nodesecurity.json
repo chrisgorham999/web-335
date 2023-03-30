@@ -1,0 +1,30 @@
+[
+    {
+        "user": "354",
+        "roles": [
+            {
+                "role1": "administrator"
+            },
+            {
+                "role2": "approver"
+            },
+            {
+                "role3": "disburser"
+            }
+        ]
+    },
+    {
+        "role": "administrator",
+        "permissions": [
+            {
+                "permission1": "access approval"
+            },
+            {
+                "permission2": "website clearance"
+            },
+            {
+                "permission3": "database access"
+            }
+        ]
+    }
+]

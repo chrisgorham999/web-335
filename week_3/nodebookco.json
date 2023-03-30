@@ -1,0 +1,58 @@
+[
+    {
+        "publisher_name": "Bright Publishing",
+        "publisher_code": "0934903",
+        "publisher_address": "6 Alicia St Somersworth NH 03878",
+        "author": [
+         {
+            "author_last_name": "Johnson",
+            "author_first_name": "Arthur",
+            "author_phone": "413-312-1492",
+            "author_email": "johnsona@yahoo.com",
+            "books":
+                {
+                    "book_isbn": "29842984929",
+                    "book_name": "All Around Town",
+                    "book_price": "29.99"
+                }
+         },
+         {
+            "author_last_name": "Dawkins",
+            "author_first_name": "Andrew",
+            "author_phone": "333-333-1882",
+            "author_email": "andrewdawkins@outlook.com",
+            "books":
+            {
+                "book_isbn": "29382993829",
+                "book_name": "Above All Else",
+                "book_price": "49.99"
+            }
+         }
+        ]
+    },
+
+    {
+        "publisher_name": "Fine Tuned",
+        "publisher_code": "0234920",
+        "publisher_address": "446 Babbling Brook Drive Virginia Beach VA 23462",
+        "author": 
+         {
+            "author_last_name": "Bridges",
+            "author_first_name": "Danny",
+            "author_phone": "603-692-4437",
+            "author_email": "Bridgesd@gmail.com",
+            "books": [
+            {
+                "book_isbn": "20490202",
+                "book_name": "A Day in the Life",
+                "book_price": "$19.99"
+            },
+            {
+                "book_isbn": "20492020209",
+                "book_name": "Beginning to End",
+                "book_price": "$29.99"
+            }
+            ]
+        }
+    }
+]
