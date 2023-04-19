@@ -8,10 +8,9 @@
 
 # imports the Mongo Client
 from pymongo import MongoClient
-import datetime
 
 # builds a connection string with the user name / database name / password for our database
-client = MongoClient("mongodb+srv://web335_user:s3cret@bellevueuniversity.up6klva.mongodb.net/web335DBretryWrites=true&w=majority")
+client = MongoClient("mongodb+srv://web335_user:s3cret@bellevueuniversity.up6klva.mongodb.net/?retryWrites=true&w=majority")
 
 db = client["web335DB"]
 
