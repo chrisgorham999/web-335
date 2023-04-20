@@ -10,7 +10,7 @@
 from pymongo import MongoClient
 
 # builds a connection string with the user name / database name / password for our database
-client = MongoClient("mongodb+srv://web335_user:s3cret@bellevueuniversity.up6klva.mongodb.net/web335DBretryWrites=true&w=majority")
+client = MongoClient("mongodb+srv://web335_user:s3cret@bellevueuniversity.up6klva.mongodb.net/web335DB?retryWrites=true&w=majority")
 
 db = client["web335DB"]
 
