@@ -11,7 +11,7 @@ from pymongo import MongoClient
 import datetime
 
 # builds a connection string with the user name / database name / password for our database
-client = pymongo.MongoClient("mongodb+srv://web335_user:s3cret@bellevueuniversity.up6klva.mongodb.net/web335DB", ssl_cert_reqs=ssl.CERT_NONE)
+client = MongoClient("mongodb+srv://web335_user:s3cret@bellevueuniversity.up6klva.mongodb.net/web335DB?retryWrites=true&w=majority")
 
 db = client["web335DB"]
 
